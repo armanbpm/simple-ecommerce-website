@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website - PITC</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fbe7fd53fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+
+            <img src="images/logo.png" class="logo">
+            <input type="text" class="form-control" placeholder="What are you looking for....">
+            <span class="input-group-text"><i class="fa fa-search"></i></span>
+
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-basket-shopping"></i>Cart</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </div>
+    </div>
+
+<!----------------------Side Menu Section------------------>
+
+<section class="header">
+        <div class="side-menu" id="side-menu">
+            <ul>
+                <li>On Sale<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Note20U+ mobile phone</li>
+                        <li>3 in 1 Fat Burner</li>
+                        <li>Boombox Party 100 EQ Model Speaker</li>
+                        <li>Portable Dog Water Bottle</li>
+                    </ul>
+                </li>
+
+                <li>Mobiles<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>WP13 5G dustproof smartphone</li>
+                        <li>128GB Used Mobile Phone</li>
+                        <li>Android 6.0 SOYES S10i </li>
+                        <li>A55 6.5 Inch Waterdrop Phone</li>
+                    </ul>
+                </li>
+
+                <li>Computers<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Barebone Dual Lan Mini Pc</li>
+                        <li>A 120G Business Mini Computer</li>
+                        <li>i3 i5 i7 desktop computer</li>
+                        <li>Computadoras all-in-one pc desktop computer</li>
+                    </ul>
+                </li>
+
+                <li>Books<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Arabic Muslim Holy Quran</li>
+                        <li>OEM Ironman Children Story Cardboard Book</li>
+                        <li>Marble A5 composition counter books</li>
+                        <li>GIGO Decorative Coffee table books</li>
+                    </ul>
+                </li>
+
+                <li>Fitness<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Seamless Scrunch Butt </li>
+                        <li>OKPRO Free Weight Fitness Dumbbells Set</li>
+                        <li>Open back plus size leggings set</li>
+                        <li>11 Pieces Fitness Resistance Bands</li>
+                    </ul>
+                </li>
+
+                <li>Beauty & Makeup<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Water Base Face Liquid Foundation Cream</li>
+                        <li>Single Large Custom Air Makeup brush</li>
+                        <li>Kabuki Vegan Custom Makeup Brush</li>
+                        <li>Cosmetic storage box</li>
+                    </ul>
+                </li>
+
+                <li>Magazines<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Brochure catalogue printing met art magazine </li>
+                        <li>Full colour custom comic book</li>
+                        <li>Hardcover Softcover Paper Books</li>
+                        <li>Chinese Booklet Binding Newsprint Magazine</li>
+                    </ul>
+                </li>
+
+                <li>Auto Accessories<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Interior Decoration Pendant Hanging Auto Accessories</li>
+                        <li>Cargo Cover for Jeep Compass Patriot 2007-2012</li>
+                        <li>Holder Adjustable Multifunctional Car Cup Holder</li>
+                        <li>Wideal OEM Car steering wheel tray 2 in 1</li>
+                    </ul>
+                </li>
+
+                <li>Movies and Musics<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Wireless BT Karaoke Portable Partybox PA PRO</li>
+                        <li>5" HD Capacitive touch Screen POS Handheld</li>
+                        <li>5.1 Tower home theater speaker</li>
+                        <li>SONAC TG-Q5A 5.1 speaker</li>
+                    </ul>
+                </li>
+                
+                <li>Videos and Games<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Wooden Roulette Board Game with spin-top</li>
+                        <li>GBA Handheld Video Game Console X7</li>
+                        <li>Flash Family Game Card Educational</li>
+                        <li>118 Pieces Portable Art Drawing Painting Sketching Set</li>
+                    </ul>
+                </li>
+
+                <li>Home and Kitchen<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Fruit onion cutter dicer manual salad slicer</li>
+                        <li>Meat Eggbeater Mini Garlic Blender</li>
+                        <li>Glass Food Storage Jars with Acacia Wood </li>
+                        <li>Chopper blender multifunctional vegetable cutter</li>
+                    </ul>
+                </li>
+
+                <li>Furnitures<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>OEM australian design mesh back commercial furniture</li>
+                        <li>Villa patio garden Sofa Set</li>
+                        <li>Oak oversize rattan furniture</li>
+                        <li>Bathroom Toilet Cabinet Laundry sink Washing Machine</li>
+                    </ul>
+                </li>
+
+                <li>Groceries<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Vietnam high quality PP woven shopping bags</li>
+                        <li>Custom blending stamping works enclosure box</li>
+                        <li>Sharp brazed diamond cutting piece</li>
+                        <li>QTOP 20L food lunch cooler bag</li>
+                    </ul>
+                </li>
+
+                <li>Personal Care<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Customized Cheap Electric Toothbrush</li>
+                        <li>Mini Ultrasonic Air Humidifier</li>
+                        <li>Serum bottle 30ml 50ml frosted</li>
+                        <li>Disposable shaving razor for lady</li>
+                    </ul>
+                </li>
+
+                <li>Health & Wellness<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Chinese Herbal Health Thermal Well Plaster</li>
+                        <li>Fruiting Body Extract Cordyceps Militaris</li>
+                        <li>Handheld Massager anti cellulite </li>
+                        <li>Natural Marine pectin from zostera</li>
+                    </ul>
+                </li>
+
+                <li>Baby Care<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Vitamins Nourishing Baby massage Oil</li>
+                        <li>Maxi soft care breathable dipers baby diapers</li>
+                        <li>Silicone Baby Health Care Kit Gift Set</li>
+                        <li>Biodegradable bamboo fibre Clean baby care wet wipes</li>
+                    </ul>
+                </li>
+
+                <li>Pet Care<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>OEM/ODM Organic Pet Care Deodorizing</li>
+                        <li>Eco OEM Best Quality Tofu Cat Litter Sand</li>
+                        <li>Pet Breathable Bag Cat Dog Capsule Carrier </li>
+                        <li>Neutral Pet Bath Dog Doggy Puppy Shampoo</li>
+                    </ul>
+                </li>
+
+                <li>Toys & Sports<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>FT335 Simple Pop Bubble Fidget Keychain Toy</li>
+                        <li>Luminous Cute Stuffed Duck Dancing Talking</li>
+                        <li>JIESTAR TOYS </li>
+                        <li>OEM Racing car 1:64 Alloy Car</li>
+                    </ul>
+                </li>
+
+                <li>Fashion & Lifestyle<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Three Quarter Sleeves</li>
+                        <li>Hooded Muslim Kaftan</li>
+                        <li>Skinny Neck Scarf For Ladies</li>
+                        <li>Custom Design 100% Silk Scarf</li>
+                    </ul>
+                </li>
+
+                <li>Electronics<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Blood Pressure Measurement Tensiometer</li>
+                        <li>Weight Digital Scale</li>
+                        <li>DR-801A2 Sampling Barrel Electronic Depth Sampling Barrel</li>
+                        <li>Electric kettle for boiling water</li>
+                    </ul>
+                </li>
+
+                <li>Cleaning Supplies<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Microfibre Cleaning Cloth Magic</li>
+                        <li>Cleaning Brush Sponge</li>
+                        <li>Eco Sisal Wooden Dish Brush Dish</li>
+                        <li>ECG flocklined household rubber glove </li>
+                    </ul>
+                </li>
+
+                <li>Vehicle Essentials<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Liquid Car Air Freshener for Vehicles</li>
+                        <li>3AD713203 Car Chrome Matte Gear Shift Knob</li>
+                        <li>Nissan pickup RUI QI P15</li>
+                        <li>Car X247 GLB180 GLB200 Parts</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+<!-----------------------------Carousel Slider Section--------------------------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slide-1.png" class="d-block w-100" alt="Slide image-1">
+      </div>
+      <div class="carousel-item ">
+        <img src="images/slide-2.png" class="d-block w-100" alt="Slide image-2">
+      </div>
+      <div class="carousel-item ">
+        <img src="images/slide-3.png" class="d-block w-100" alt="Slide image-3">
+      </div>
+      <div class="carousel-item ">
+        <img src="images/slide-4.png" class="d-block w-100" alt="Slide image-4">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+
+<!----------------------Featured categories Section---------------->
+<section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/Feature-1.png">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/feature-2.png">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/feature-3.png">
+                </div>
+           </div>
+       </div>
+</section>
+
+<!-------------------------On Sale products Section------------------------->
+<section class="on-sale">
+    <div class="container">
+        <div class="title-box">
+            <h2>On Sale</h2>
+        </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="images/on-sale-1.png"></a>
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-bags-shopping"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                <i class="fa fa-book-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to cart">
+                                <i class="fa fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <h3>Note20U+ mobile phone smartphone 6.9 inch edge infinity -0 display cheap cellular Android smartphone</h3>
+                        <h5>$93.00</h5>
+                    </div>
+                </div>
+
+            <div class="col-md-3">
+                <div class="product-top">
+                    <a href="product.html"> <img src="images/on-sale-2.png"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-bags-shopping"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                            <i class="fa fa-book-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart">
+                            <i class="fa fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <h3>Portable Mini Type Body Slimming 3 in 1 Fat Burner Beauty Device</h3>
+                    <h5>$10.90</h5>
+                </div>
+
+            
+        </div>
+
+        <div class="col-md-3">
+            <div class="product-top">
+                <a href="product.html"> <img src="images/on-sale-3.png"></a>
+                <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-bags-shopping"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-book-heart"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to cart">
+                        <i class="fa fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <h3>Boombox Party 100 EQ Model Speaker PC Led Night Light Light Sepaker Portable Speaker Wireless Rgb with Powerful Sound and Leather</h3>
+                <h5>$13.33</h5>
+            </div>
+
+        </div>
+
+    <div class="col-md-3">
+        <div class="product-top">
+            <a href="product.html"><img src="images/on-sale-4.png"></a>
+            <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                    <i class="fa fa-bags-shopping"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                    <i class="fa fa-book-heart"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to cart">
+                    <i class="fa fa-cart-shopping"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>Everich 3 in 1 Free Leak Proof Portable Dog Water Bottle, Cat Travel Drink Cup Dispenser for Pets Outdoor Walking</h3>
+            <h5>$4.50</h5>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-------------------------------New Arrival Section------------------->
+  <section class="new-products">
+
+    <div class="container">
+        <div class="title-box">
+            <h2>New Arrivals</h2>
+        </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/new-arrival-1.png">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-bags-shopping"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                <i class="fa fa-book-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to cart">
+                                <i class="fa fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <h3>Valdus Reloj Inteligente Smart Bracelet Smart Watch Sport Health Wristband T89 Smart Watch With Earbuds</h3>
+                        <h5>$21.99</h5>
+                    </div>
+
+                
+            </div>
+
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/new-arrival-2.png">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-bags-shopping"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                            <i class="fa fa-book-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart">
+                            <i class="fa fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <h3>Earphone TWS Q8 Noise Cancelling Headphones stereo Wireless Bluetooth Headsetfactory</h3>
+                    <h5>$36.85</h5>
+
+                </div>
+
+            
+        </div>
+
+        <div class="col-md-3">
+            <div class="product-top">
+                <img src="images/new-arrival-3.png">
+                <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-bags-shopping"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-book-heart"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to cart">
+                        <i class="fa fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <h3>Dropshipping Original auriculares lenovo HT38 Bl5.0 Intelligent Noise Reduction Wireless Bluetooth Headphone</h3>
+                <h5>$19.90</h5>
+
+            </div>
+
+        
+    </div>
+
+    <div class="col-md-3">
+        <div class="product-top">
+            <img src="images/new-arrival-4.png">
+            <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                    <i class="fa fa-bags-shopping"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                    <i class="fa fa-book-heart"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to cart">
+                    <i class="fa fa-cart-shopping"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <h3>Magsaf Magnetic Air Vent Car Charger 15W Fast Wireless Charger Car Mount For Mobile Phone</h3>
+            <h5>$12.35</h5>
+
+        </div>
+
+    
+        </div>
+
+        <div class="col-md-3">
+            <div class="product-top">
+                <img src="images/new-arrival-5.png">
+                <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-bags-shopping"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-book-heart"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to cart">
+                        <i class="fa fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <h3>Pink Color Gaming Headset Gamer Headphones for PS5 with Kitty Ear</h3>
+                <h5>$15.90</h5>
+    
+            </div>
+    
+        
+            </div>
+
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/new-arrival-6.png">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-bags-shopping"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                            <i class="fa fa-book-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart">
+                            <i class="fa fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+        
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Portable Mini Ice Cooling Handheld IPL Hair Removal 999999 Flashes With 2 Replaced Cartridges</h3>
+                    <h5>$39.50</h5>
+        
+                </div>
+        
+            
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/new-arrival-7.png">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-bags-shopping"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                <i class="fa fa-book-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to cart">
+                                <i class="fa fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+            
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <h3>Kisen Elegant Beauty Nail Salon Pipeless Whirlpool Electric Discharge Pump Foot Spa Black Massage Pedicure Chair</h3>
+                        <h5>$799.99</h5>
+            
+                    </div>
+            
+                
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="images/new-arrival-8.png">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-bags-shopping"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                    <i class="fa fa-book-heart"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to cart">
+                                    <i class="fa fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+                
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h3>Gradient E File Professional Nails Drill Machine Rechargeable Cordless 35000rpm Electric Nail Drill</h3>
+                            <h5>$38.80</h5>
+                
+                        </div>
+                
+                    
+                        </div>
+
+        </div>
+
+    </div>
+
+
+  </section>
+
+  <!-----------------------------Website Features(Guarentee) Section--------------->
+  <section class="website-features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 feature-box">
+                <img src="images/website-feature-1.png" alt="">
+                <div class="feature-text">
+                 <p><b> 100% original items</b> are available in this shop</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 feature-box">
+                <img src="images/website-feature-2.png" alt="">
+                <div class="feature-text">
+                 <p><b> Return within 30 days</b> of receiving your order</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 feature-box">
+                <img src="images/website-feature-3.png" alt="">
+                <div class="feature-text">
+                 <p><b> Get free delivery for every</b> order on more than price</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 feature-box">
+                <img src="images/website-feature-4.png" alt="">
+                <div class="feature-text">
+                 <p><b> Pay online through multiple</b> payment options (card payment)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+
+  <!------------------------------Footer Section----------------------->
+  <section class="footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Useful Links</h1>
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Return Policy</p>
+                <p>Discount Coupons</p>
+            </div>
+
+            <div class="col-md-3">
+                <h1>Company</h1>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Career</p>
+                <p>Affiliate</p>
+                
+            </div>
+
+            <div class="col-md-3">
+                <h1>Follow Us On</h1>
+                <p><i class="fa fa-facebook-official"></i>Facebook</p>
+                <p><i class="fa fa-youtube-play"></i>YouTube</p>
+                <p><i class="fa fa-linkedin"></i>LinkedIn</p>
+                <p><i class="fa fa-twitter"></i>Twitter</p>
+            </div>
+
+            <div class="col-md-3 footer-image">
+                <h1>Download App</h1>
+                <img src="images/download-app-logo.png" alt="">
+            </div>
+            
+        </div>
+
+        <hr>
+        <p class="copyright">Copyright &copy; 2014-2022 PITC - All rights reserved.</p>
+
+    </div>
+
+  </section>
+
+
+        <script>
+            function openmenu(){
+                document.getElementById("side-menu").style.display="block";
+                document.getElementById("menu-btn").style.display="none";
+                document.getElementById("close-btn").style.display="block";
+            }
+
+            function closemenu(){
+                document.getElementById("side-menu").style.display="none";
+                document.getElementById("menu-btn").style.display="block";
+                document.getElementById("close-btn").style.display="none";
+            }
+        </script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
